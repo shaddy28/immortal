@@ -1,0 +1,80 @@
+#CROP PRODUCTION
+import java.util.scanner;
+public class crop production {
+                                                public static void main(String[] args) {
+scanner reader = new scanner(system.in);
+system.out.print("enter past year crop yield:");
+double first = reader.nextDouble();
+double second = reader.nextdouble();
+double third = reader.nextdouble();
+double fourth = reader.nextdouble();
+double fifth = reader.nextdouble();
+double sixth = reader.nextdouble();
+double seventh = reader.nextdouble();
+
+system.out.print("enter past year rainfall:");
+double first1 = reader.nextDouble();
+double second2 = reader.nextdouble();
+double third3 = reader.nextdouble();
+double fourth4 = reader.nextdouble();
+double fifth5 = reader.nextdouble();
+double sixth6 = reader.nextdouble();
+double seventh7 = reader.nextdouble();
+
+system.out.print("enter past year msp:");
+double first11 = reader.nextDouble();
+double second22 = reader.nextdouble();
+double third33 = reader.nextdouble();
+double fourth44 = reader.nextdouble();
+double fifth55 = reader.nextdouble();
+double sixth66 = reader.nextdouble();
+double seventh77 = reader.nextdouble();
+
+
+system.out.print("KNOW YOUR CROP PRICE BY ENTERING CROP YIELD ");
+double crop yield= reader.nextdouble();
+double finalresult;
+
+if (crop yield==first)
+{finalresult=first11;}
+if (crop yield==second)
+{finalresult=second22;}
+if (crop yield==third)
+{finalresult=third33;}
+if (crop yield==fourth)
+{finalresult=fourth44;}
+if (crop yield==fifth)
+{finalresult=fifth55;}
+if (crop yield==sixth)
+{finalresult=sixth66;}
+if (crop yield==seventh)
+{finalresult=seventh77;}
+
+system.out.print("THE MSP OF YOUR CROP IS ");
+system.out.print("%.1f",finalresult);
+
+system.out.print("KNOW YOUR CROP PRICE BY ENTERING rainfall ");
+double rainfall= reader.nextdouble();
+double finalresult;
+
+if (rainfall==first1)
+{finalresult=first11;}
+if (rainfall==second2)
+{finalresult=second22;}
+if (rainfall==third3)
+{finalresult=third33;}
+if (rainfall==fourth4)
+{finalresult=fourth44;}
+if (rainfall==fifth5)
+{finalresult=fifth55;}
+if (rainfall==sixth6)
+{finalresult=sixth66;}
+if (rainfall==seventh7)
+{finalresult=seventh77;}
+
+system.out.print("THE MSP OF YOUR CROP IS ");
+system.out.print("%.1f",finalresult);
+
+
+}
+}
